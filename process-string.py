@@ -30,15 +30,6 @@ print(output_str)
 
 
 alphabet = "abcdefghijklmnopqrstuvwxyz"
-
+start, end = alphabet.split('-')
 user_range = input("Enter a range of letters (e.g., a-z): ")
-
-start, end = user_range.split('-')
-start_index = alphabet.index(start)
-end_index = alphabet.index(end)
-
-result_str = alphabet[start_index:end_index + 1]
-
-print(result_str)
-
 
